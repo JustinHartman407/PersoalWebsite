@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+}
+
+body 
+{
+  font-family: Times;
+  padding: 8px;
+  background: #2EC1F9;
+}
+
+.header h1 
+{
+  font-size: 100px;
+  font-style: italic;
+  Font: Times;
+  
+}
+
+.header 
+{
+  text-align: center;
+  padding:70px;
+  background-color:#ECF9FB;
+  border: 2px solid;
+}
+
+.img1
+{
+	border-radius: 50%;
+	height: 300px;
+	width: 300px;
+	float: right;
+	border:10px solid #EA852B;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+}
+
+/* Style the top navigation bar */
+#topnav {
+	overflow: hidden;
+	 background-color: black;
+	 transition: top 0.3s;
+	position: fixed;
+	width: 97.75%;
+	top: 0;
+	display: block;
+}
+
+/* Style the topnav links */
+#topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:35px;
+  font: Times;
+  
+}
+
+/* Change color on hover */
+#topnav a:hover {
+  background-color: #2EC1F9;
+  color: black;
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  #topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn 
+{   
+  float: left;
+  width: 50%;
+  padding: 20px;
+  height: 650px;
+  background-color: #ECF9FB;
+  border: 2px solid;
+  border-top: 45px solid;
+}
+
+/* Clear floats after the columns */
+.row:after
+ {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+div.a 
+{
+  text-indent: 50px;
+}
+
+p.big 
+{
+  line-height: 1.8;
+  font-size: 19px;
+}
+
+.img2
+{
+	height: 300px;
+	width: 600px;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img3
+{
+height: 250px;
+	width: 650px;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.bottomcolumn
+{
+  width: 100%;
+  padding: 20px;
+  height: 2200px;
+  background-color: #ECF9FB;
+  border: 2px solid;
+  border-top: 45px solid;
+}
+
+.h2
+{
+	word-spacing: 10px;
+	text-align: center;
+	font-size: 25px;
+	font-family: georgia;
+}
+.p2
+{
+	text-align: center;
+	word-spacing: 8px;
+	font-family: times;
+}
+.careerobjh2
+{
+	color: #EA852B;
+	font-family: georgia;
+	font-style: italic;
+	font-size: 25px;
+	
+}
+.li
+{
+  line-height: 1.5;
+  list-style-type:Circle;
+  text-indent: 7px;
+}
+.headerprojects
+{
+	text-align: center;
+  padding:30px;
+  background-color:#ECF9FB;
+  border: 2px solid;
+  border-top: 45px solid;
+}
+.btn 
+{
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.btn:hover {
+  background-color: RoyalBlue;
+}
+.img4
+{
+	height: 300px;
+	width: 700px;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img5
+{
+	height: 500px;
+	width: 500px;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newprojectcolumn 
+{   
+  float: left;
+  width: 50%;
+  padding: 20px;
+  height: 650px;
+  background-color: #ECF9FB;
+  border: 2px solid;
+}
+.img6
+{
+	height: 500px;
+	width: 500px;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img7
+{
+	height: 500px;
+	width: 600px;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img8
+{
+	height: 400px;
+	width: 650px;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .leftcolumn, .rightcolumn, .bottomcolumn, .headerprojects, .newprojectcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
